@@ -1,0 +1,38 @@
+body{
+    margin: 5%;
+    font-family: sans-serif;
+    padding: 0%;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+h1{
+    line-height: 1.25;
+}
+
+#switcher{
+    list-style: none;
+    overflow: hidden;
+}
+
+#switcher li{
+    float: left;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 3px solid black;
+    margin: 1%;
+}
+
+#greyButton{
+    background-color: rgb(158, 155, 155);
+}
+#whiteButton{
+    background-color: white;
+}
+#blueButton{
+    background-color: rgb(86, 86, 231);
+}
+#yellowButton{
+    background-color: rgb(235, 235, 95);
+}
